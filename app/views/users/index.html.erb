@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Users</h1>
+
+<%= text_field_tag 'js-search-bar' %>
+<%= button_tag 'Search', class: 'js-search-button'%>
+
+
+<table class="users-table">
+</table>
+
+<br>
+
+<%= link_to 'New User', new_user_path %>
