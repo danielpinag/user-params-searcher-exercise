@@ -6,6 +6,9 @@ class UsersController < ApplicationController
   def index
   end
 
+  def payments
+  end
+
   # GET /users/1
   # GET /users/1.json
   def show

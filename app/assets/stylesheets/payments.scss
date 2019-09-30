@@ -1,0 +1,83 @@
+.container{
+  margin: 0px;
+
+  .content{
+    border: solid 1px purple;
+    margin: auto;
+    padding: 20px;
+    width: 352px;
+
+    .coupon-feature{
+      padding: 15px;
+
+      .feature-title{
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0px 0px 10px 6px;
+      } 
+
+      .coupon-field{
+
+        #coupon-input_{
+          display: inline-flex;
+          font-size: 20px;
+          height: 30px;
+          margin: 6px;
+          width: 176px;
+        }
+
+        .delete-button{
+          align-items: center;
+          border: solid 1px purple;
+          display: inline-flex;
+          height: 30px;
+          justify-content: center;
+          margin: 6px;
+          text-decoration: none;
+
+          div{
+            color: purple;
+            font-size: 20px;
+            padding: 20px;
+          }
+        }
+        .delete-button:hover{
+          background-color: initial;
+        }
+      }
+    }
+
+    .pay-method-feature{
+      padding: 15px; 
+
+      .feature-title{
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0px 0px 10px 6px;
+      }
+
+      .pay-methods{
+
+        div{
+          align-items: center;
+          border: solid 1px purple;
+          cursor: pointer;
+          display: inline-flex;
+          height: 60px;
+          justify-content: center;
+          margin: 6px;
+          width: 88px;
+
+          .js-white-image{
+            display: none;
+          }
+
+          img{
+            height: 30px;
+            width: 58px
+          }
+        }
+      }
+    }
+  }
+}

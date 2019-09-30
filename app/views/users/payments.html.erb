@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="content">
+    <div class="coupon-feature">
+        <div class="feature-title">¿Tienes un cupón de descuento?</div>
+        <div class="coupon-field">
+          <%= text_field 'coupon-input', nil, placeholder: 'HOMIE_50' %>
+          <a href="" class="delete-button"><div>Eliminar</div></a>
+          <div class="coupon-applied">
+            <%= image_tag("checked.png", class: 'checked-coupon') %>
+            Tu cupón ha sido aplicado
+          </div>
+        </div>
+    </div>
+    <div class="pay-method-feature">
+      <div class="feature-title">Elige tu método de pago</div>
+      <div class="js-image-picker pay-methods">
+        <div class="js-image">
+          <%= image_tag("purple_card.png", class: 'js-purple-image') %>
+          <%= image_tag("white_card.png", class: 'js-white-image') %>
+        </div>
+        <div class="js-image">
+          <%= image_tag("purple_oxxo.png", class: 'js-purple-image') %>
+          <%= image_tag("white_oxxo.png", class: 'js-white-image') %>
+        </div>
+        <div class="js-image">
+          <%= image_tag("purple_spei.png", class: 'js-purple-image') %>
+          <%= image_tag("white_spei.png", class: 'js-white-image') %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
